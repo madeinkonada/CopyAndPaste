@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title"> Preconsultation Survey</h1>
+  <p id="description"> Please complete the survey below so we can better serve you</p>
+  <form id="survey-form">
+    <label id="name-label"> Name <input id= "name" required placeholder="Name"></label>
+    <label id="email-label"> Email <input id= "email" type="email" required placeholder="Email"> </label>
+    <label id="number-label">Age <input id= "number" type="number" min="20" max="100" required placeholder="Age"> </label>
+    <div value="">
+    <label id="gender-label"> Gender <select id="dropdown"> 
+    <option> Gender </option>
+    <option> Male </option>
+    <option> Female</option>
+    <option> Prefer not to say</option></label>
+ </select>
+ <div value="">
+    <label id="meeting-type"> Meeting Type <div value="">
+    <input type="radio" value="online" name="meetup-type"></input> <label>Online</label>
+    <input type="radio" value="offline" name="meetup-type"></input> </label><label>Offline</label>
+   <div value="">
+   <textarea> Questions or comments</textarea>
+  <div value="">
+    <input type="checkbox" value="term-and-conditions"></checkbox> <label> Terms and conditions
+</label>
+ <input type="checkbox" value="subscribe"></checkbox> <label> Subscribe to newsletter
+</label>
+<div value="">
+  <button id="submit">Submit</button>
+   
+    <form>
+</body>
